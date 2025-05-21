@@ -1,9 +1,5 @@
 # Trademan_helper
 
-<p align="center">
-  <img src="https://www.selenium.dev/images/selenium_logo_square_green.png" alt="Selenium Logo" width="150">
-</p>
-
 [![GitHub license](https://img.shields.io/github/license/NickZhang0707/trademan_helper)](https://github.com/NickZhang0707/trademan_helper/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/NickZhang0707/trademan_helper)](https://github.com/NickZhang0707/trademan_helper/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/NickZhang0707/trademan_helper)](https://github.com/NickZhang0707/trademan_helper/issues)
