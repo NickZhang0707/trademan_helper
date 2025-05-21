@@ -1,2 +1,2 @@
 # trademan_helper
-FOR NZNA
+FOR NZNC
