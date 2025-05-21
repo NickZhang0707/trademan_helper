@@ -4,9 +4,9 @@
   <img src="https://www.selenium.dev/images/selenium_logo_square_green.png" alt="Selenium Logo" width="150">
 </p>
 
-[![GitHub license](https://img.shields.io/github/license/yourusername/your-repo)](https://github.com/yourusername/your-repo/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/your-repo)](https://github.com/yourusername/your-repo/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/your-repo)](https://github.com/yourusername/your-repo/issues)
+[![GitHub license](https://img.shields.io/github/license/NickZhang0707/trademan_helper)](https://github.com/NickZhang0707/trademan_helper/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/NickZhang0707/trademan_helper)](https://github.com/NickZhang0707/trademan_helper/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/NickZhang0707/trademan_helper)](https://github.com/NickZhang0707/trademan_helper/issues)
 
 <a href="https://reactjs.org/">
   <img src="https://img.shields.io/badge/React-v18.2.0-61DAFB?logo=react" alt="React v18.2.0">
