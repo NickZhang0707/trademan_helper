@@ -37,6 +37,6 @@ There is no UI for now. This Python script will enter your council user name, pa
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/NickZhang0707/trademan_helper.git
 cd your-repo
 pip install -r requirements.txt
