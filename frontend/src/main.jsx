@@ -4,18 +4,32 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Dashboard from "./dashboard/Dashboard";
-
+import Dashboard from "./Dashboard";
+import Schedule from "./Schedule";
+import Root from "./root";
+import { CssVarsProvider } from '@mui/joy/styles';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard />,
+    element: <Root />,
+    children:[
+      {
+        index: true,
+        element: <Dashboard />,
+      },
+      {
+        path: "schedule",
+        element: <Schedule />,
+      }
+    ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <CssVarsProvider>   {/* Joy UI 的主题上下文 */}
+      <RouterProvider router={router} />
+    </CssVarsProvider>
   </React.StrictMode>
 );

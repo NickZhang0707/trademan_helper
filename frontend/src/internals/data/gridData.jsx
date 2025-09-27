@@ -48,8 +48,8 @@ function renderSparklineCell(params) {
 
 function renderStatus(status) {
   const colors = {
-    Online: 'success',
-    Offline: 'default',
+    Done: 'success',
+    Pending: 'default',
   };
 
   return <Chip label={status} color={colors[status]} size="small" />;
@@ -127,8 +127,8 @@ export const columns = [
 export const rows = [
   {
     id: 1,
-    pageTitle: 'Homepage Overview',
-    status: 'Online',
+    pageTitle: 'Framing',
+    status: 'Done',
     eventCount: 8345,
     users: 212423,
     viewsPerUser: 18.5,
@@ -143,7 +143,7 @@ export const rows = [
   {
     id: 2,
     pageTitle: 'Product Details - Gadgets',
-    status: 'Online',
+    status: 'Pending',
     eventCount: 5653,
     users: 172240,
     viewsPerUser: 9.7,
@@ -155,8 +155,8 @@ export const rows = [
   },
   {
     id: 3,
-    pageTitle: 'Checkout Process - Step 1',
-    status: 'Offline',
+    pageTitle: 'Funditions',
+    status: 'Done',
     eventCount: 3455,
     users: 58240,
     viewsPerUser: 15.2,
