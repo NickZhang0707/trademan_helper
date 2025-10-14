@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import Schedule from "./Schedule";
+import InspectionGrid from "./Inspection";
 import Root from "./root";
 import { CssVarsProvider } from '@mui/joy/styles';
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "schedule",
         element: <Schedule />,
+      },
+      {
+        path: "inspection",
+        element: <InspectionGrid />,
       }
     ],
   },
